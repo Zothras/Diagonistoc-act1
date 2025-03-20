@@ -33,13 +33,18 @@ namespace Diagonistoc_act1
 
                 case 2:
                     int Num2 = 1;
-                    int cuentapares;
-                    cuentapares = int.Parse(Console.ReadLine());
-                    while (Num2<50)
+                    while (Num2<=50)
                     {
-                        Console.WriteLine(cuentapares);
-                        cuentapares = Num2 / 2;
-                        Num2++;
+                        Console.WriteLine(Num2);
+                        if (Num2 % 2 == 1)
+                        {
+                            Console.WriteLine("Este numero es par");
+                        }
+                        else
+                        {
+                            Num2++;
+                        }
+                        Num2++;     
                         
 
                     }
@@ -72,6 +77,20 @@ namespace Diagonistoc_act1
                     break;
 
                 case 5:
+                    for (int Y = 0; Y <= 50; Y++)
+                    {
+                        Console.WriteLine(Y);
+                        if (Y % 2 == 1)
+                        {
+                            Console.WriteLine(Y);
+                            
+                        }
+                        else
+                        {
+                            Y++;
+                        }
+                    }
+
 
                     break;
 
