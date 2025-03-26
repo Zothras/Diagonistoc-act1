@@ -221,7 +221,7 @@ namespace Diagonistoc_act1
                             }
                             else
                         {
-                            Console.WriteLine("Este numero es incorrecto... ESPABILA QUE LA VIDA TE VA A COME'");
+                            Console.WriteLine("Este numero es incorrecto... '");
                             break;
                         }
                     } while (mes != 12);
